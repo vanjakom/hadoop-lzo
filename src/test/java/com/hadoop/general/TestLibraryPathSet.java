@@ -15,7 +15,7 @@ public class TestLibraryPathSet extends TestCase {
 
         System.out.println("Library path: " + libraryPath);
 
-        assertNull(libraryPath);
-        assertEquals(libraryPath, "");
+        assertNotNull(libraryPath);
+        assertNotSame(libraryPath, "");
     }
 }
