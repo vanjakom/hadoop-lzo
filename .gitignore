@@ -28,3 +28,4 @@ target/
 *.iml
 *.iws
 src/.DS_Store
+src/test/.DS_Store
