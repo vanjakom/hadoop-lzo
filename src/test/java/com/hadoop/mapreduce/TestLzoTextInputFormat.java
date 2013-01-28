@@ -81,6 +81,7 @@ public class TestLzoTextInputFormat extends TestCase {
    * Make sure the lzo index class works as described.
    */
   public void testLzoIndex() {
+    System.out.println("Starting test");
     LzoIndex index = new LzoIndex();
     assertTrue(index.isEmpty());
     index = new LzoIndex(4);

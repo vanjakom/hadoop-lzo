@@ -29,3 +29,5 @@ target/
 *.iws
 src/.DS_Store
 src/test/.DS_Store
+randdata
+ivy/ivy-2.0.0-rc2.jar
